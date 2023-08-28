@@ -1,0 +1,164 @@
+main{
+    position: relative;
+}
+div{
+    width: 200px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 20px;
+    position: absolute;
+}
+.div1{
+    animation-name: change1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes change1 {
+    0% {
+        background-color: purple;
+        left: 0;
+    }
+    25% {
+        background-color: pink;
+    }
+    50% {
+        background-color: yellow;
+    }
+    75% {
+        background-color: orange;
+    }
+    100% {
+        background-color: orangered;
+        left: 1100px;
+    }
+}
+.div2{
+    animation-name: change2;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    top: 115px;
+    animation-fill-mode: both;
+}
+@keyframes change2 {
+    0% {
+        background-color: purple;
+        left: 1100px;
+    }
+    25% {
+        background-color: pink;
+    }
+    50% {
+        background-color: yellow;
+    }
+    75% {
+        background-color: orange;
+    }
+    100% {
+        background-color: orangered;
+        left: 0;
+    }
+}
+.div3{
+    animation-name: change3;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    top: 230px;
+    animation-fill-mode: forwards;
+}
+@keyframes change3 {
+    0% {
+        background-color: purple;
+        left: 0;
+    }
+    25% {
+        background-color: pink;
+    }
+    50% {
+        background-color: yellow;
+    }
+    75% {
+        background-color: orange;
+    }
+    100% {
+        background-color: orangered;
+        left: 1100px;
+    }
+}
+.div4{
+    animation-name: change4;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    top: 345px;
+    animation-fill-mode: both;
+}
+@keyframes change4 {
+    0% {
+        background-color: purple;
+        left: 1100px;
+    }
+    25% {
+        background-color: pink;
+    }
+    50% {
+        background-color: yellow;
+    }
+    75% {
+        background-color: orange;
+    }
+    100% {
+        background-color: orangered;
+        left: 0;
+    }
+}
+.div5{
+    animation-name: change5;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    top: 460px;
+    animation-fill-mode: forwards;
+}
+@keyframes change5 {
+    0% {
+        background-color: purple;
+        left: 0;
+    }
+    25% {
+        background-color: pink;
+    }
+    50% {
+        background-color: yellow;
+    }
+    75% {
+        background-color: orange;
+    }
+    100% {
+        background-color: orangered;
+        left: 1100px;
+    }
+}
+.div6{
+    animation-name: change6;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    top: 575px;
+    animation-fill-mode: both;
+}
+@keyframes change6 {
+    0% {
+        background-color: purple;
+        left: 1100px;
+    }
+    25% {
+        background-color: pink;
+    }
+    50% {
+        background-color: yellow;
+    }
+    75% {
+        background-color: orange;
+    }
+    100% {
+        background-color: orangered;
+        left: 0;
+    }
+}
